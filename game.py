@@ -12,16 +12,17 @@ phineas_x = 50
 phineas_y = 0
 phineas_vx = 20
 phineas_vy = 0
+
 p_width = phineas_image.get_width()
 p_height = phineas_image.get_height()
 
 isabella_image = pygame.image.load("assets/images/isabella.png")
-isabella_scale = 0.5
-isabella_image = pygame.transform.scale(isabella_image, (p_width, p_height))
+isabella_image = pygame.transform.scale(isabella_image, (p_width + 10, p_height + 25))
 isabella_x = 200
 isabella_y = 0
 isabella_vx = 20
 isabella_vy = 0
+
 i_width = isabella_image.get_width()
 i_height = isabella_image.get_height()
 
